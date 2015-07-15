@@ -1,0 +1,53 @@
+.about-body-textarea {
+  min-height: 191px;
+}
+
+.navbar-admin {
+  // margin-top: 40px;
+}
+
+.course-detail-container {
+  // max-height: 340px;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 2px -1px rgb(23, 23, 23);
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 0
+  }
+  h3 {
+    margin-top: 0;
+  }
+  p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  img {
+    // width: 100%;
+    // max-height: 300px;
+  }
+  .course-description-textarea {
+    height: 191px;
+  }
+}
+
+.add-course-detail-container {
+  padding: 10px;
+  background: #FFFFFF;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 2px -1px rgb(23, 23, 23);
+  .course-description-textarea {
+    height: 191px;
+  }
+}
+
+.add-course, .save-profile-edit-button, .edit-profile-button, .cancel-add {
+  margin: 15px 10px 15px 0;
+}
+.courses-template-list-container {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}

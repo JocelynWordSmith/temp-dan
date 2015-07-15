@@ -1,0 +1,68 @@
+@import "navbarContainer";
+@import "templateContainer";  
+@import "footerContainer";
+@import "signInPage";
+@import "landingPage";
+@import "adminPage";
+@import "mobileStyles";
+@import "coursesPage";
+@import "locationsPage";
+
+
+* {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+
+  button {
+    font-family: Helvetica, Arial, sans-serif !important;
+  }
+}
+
+p {
+  white-space: pre-wrap;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body, html { overflow-x:hidden; }
+
+a {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  // background-color: #101010;
+}
+
+ul {
+  list-style-type: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.float-right {
+  float: right;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.template-container {
+  padding-top: 50px;
+}
+
+.nav li{
+  cursor: pointer;
+}

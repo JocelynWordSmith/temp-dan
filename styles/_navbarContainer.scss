@@ -1,0 +1,54 @@
+.nav-template-container {
+  .navbar-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    // background-color: #;
+    color: #FFFFFF;
+    // height: 93px;
+    .brand-logo-img-container {
+      max-height: 80px;
+      .brand-logo-img {
+        background: url(../images/dojo-logo.png) no-repeat center; 
+        background-size: 100%;
+        min-height: 80px;
+        height: 100%;
+        width: 100%;
+        margin: 5px 30px;
+      }
+    }
+    ul {
+      padding-top: 25px;
+      text-align: center;
+      .non-dropdown-btn {
+        padding-top: 7px;
+      }
+      li{
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+        div, select {
+          padding: 5px;
+          min-width: 60px;
+          text-align: center;
+        }
+        button {
+          background: rgba(0,0,0,0);
+          // color: #FFFFFF;
+        }
+        div:hover, button:hover {
+          font-weight: bold;
+          // border: 2px solid #FFFFFF;
+          // border-radius: 12px;
+          -webkit-transition: all 120ms ease;
+          -moz-transition: all 120ms ease;
+          -o-transition: all 120ms ease;
+          transition: all 120ms ease;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,42 @@
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  // and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    // LANDING PAGE -----------------
+    .footer {
+      height: auto;
+      ul {
+        li {
+          font-size: 13px;
+        }
+      }
+      .contact-us-inputs {
+        margin-bottom: 20px;
+        border-left: 0px;
+      }
+    }
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media (max-width: 736px) { 
+    // LANDING PAGE -----------------
+    .footer {
+      height: auto;
+      ul {
+        li {
+          font-size: 13px;
+        }
+      }
+      .contact-us-inputs {
+        margin-bottom: 20px;
+        border-left: 0px;
+      }
+    }
+
+}

@@ -1,0 +1,45 @@
+.footer-template-container {
+
+  // z-index: 9999;
+  background: lightgray;
+  .sign-button-container {
+    padding: 20px 0;
+  }
+}
+
+.footer {
+  height: 400px;
+  padding: 0;
+  background-color: #CACACA;
+  color: #585858;
+  overflow: hidden;
+  ul {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    li {
+      height: 45px;
+      font-size: 17px;
+    }
+  }
+  .contact-us-inputs{
+    height: 100%;
+    border-left: 1px dotted #646464;
+    .contact-us-list {
+      padding-top: 20px; 
+      li {
+        height: auto;
+        .form-group {
+          margin-right: 0;
+        }
+        label {
+          font-size: 12px;
+        }
+        textarea {
+          height: 100px;
+          resize: none;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
